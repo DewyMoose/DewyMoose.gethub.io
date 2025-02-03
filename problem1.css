@@ -1,0 +1,58 @@
+* {
+    background-color: hsl(212, 45%, 89%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: outfit;
+}
+
+html, body {
+    height: 100%; /* Ensure full height for the parent elements */
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  hsl(212, 45%, 89%);
+}
+.whitebox {
+    display: flex;
+    height: 400px;
+    width: 300px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.whitebox img {
+    display: flex;
+    height: 60%;
+    width: 90%;
+    margin-top: 5px;
+    border-radius: 5%;
+}
+
+.whitebox h3 {
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+}
+.whitebox p {
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: wrap;
+    text-align: center;
+    color: hsl(216, 15%, 48%);
+    font-size: 15px;
+    font-weight: 400;
+}
